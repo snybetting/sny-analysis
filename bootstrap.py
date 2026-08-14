@@ -11,3 +11,22 @@ print(len(results))
 print(np.mean(results))
 print(np.percentile(results, 2.5))
 print(np.percentile(results, 97.5))
+df["date"] = pd.to_datetime(df["date"])
+s2425 = df[df["date"] < "2025-08-01"]
+s2526 = df[df["date"] >= "2025-08-01"]
+print(len(s2425))
+print(len(s2526))
+results2425 = []
+for i in range(10000):
+    s = s2425.sample(n=1191, replace=True)
+    results2425.append(s["Profit"].sum() / s["Unit Stake"].sum() * 100)
+results2526 = []
+for i in range(10000):
+    s = s2526.sample(n=1409, replace=True)
+    results2526.append(s["Profit"].sum() / s["Unit Stake"].sum() * 100)
+print(np.mean(results2425))
+print(np.percentile(results2425, 2.5))
+print(np.percentile(results2425, 97.5))
+print(np.mean(results2526))
+print(np.percentile(results2526, 2.5))
+print(np.percentile(results2526, 97.5))
