@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="bootstrap CI on all-time ROI">
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="bootstrap CI by season">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.py" afterDir="false" />
     </list>
@@ -96,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786700713259</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bootstrap CI by season">
+      <option name="closed" value="true" />
+      <created>1786701727262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1786701727263</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,6 +112,7 @@
     <MESSAGE value="add type conversions and save clean output" />
     <MESSAGE value="added prior.md" />
     <MESSAGE value="bootstrap CI on all-time ROI" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap CI on all-time ROI" />
+    <MESSAGE value="bootstrap CI by season" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap CI by season" />
   </component>
 </project>

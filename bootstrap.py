@@ -30,3 +30,13 @@ print(np.percentile(results2425, 97.5))
 print(np.mean(results2526))
 print(np.percentile(results2526, 2.5))
 print(np.percentile(results2526, 97.5))
+diffs = []
+for i in range(10000):
+    a = s2425.sample(n=1191, replace=True)
+    b = s2526.sample(n=1409, replace=True)
+    roi_a = a["Profit"].sum() / a["Unit Stake"].sum() * 100
+    roi_b = b["Profit"].sum() / b["Unit Stake"].sum() * 100
+    diffs.append(roi_a - roi_b)
+print(np.mean(diffs))
+print(np.percentile(diffs, 2.5))
+print(np.percentile(diffs, 97.5))
