@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="Rename README to README.md">
-      <change afterPath="$PROJECT_DIR$/drawdown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add drawdown analysis and equity curve">
+      <change afterPath="$PROJECT_DIR$/drawdown_findings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786967703726</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add drawdown analysis and equity curve">
+      <option name="closed" value="true" />
+      <created>1786990370342</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1786990370342</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +333,7 @@
     <MESSAGE value="add README" />
     <MESSAGE value="add gitignore and untrack data files" />
     <MESSAGE value="Rename README to README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename README to README.md" />
+    <MESSAGE value="add drawdown analysis and equity curve" />
+    <option name="LAST_COMMIT_MESSAGE" value="add drawdown analysis and equity curve" />
   </component>
 </project>
