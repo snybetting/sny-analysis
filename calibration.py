@@ -1,0 +1,25 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+df = pd.read_csv("clean_bets.csv")
+df["date"] = pd.to_datetime(df["date"])
+df = df[~df["Fixture"].isin(["Double", "Treble", "Acca", "4 Fold", "6 Fold"])]
+df = df[df["EV%"].notna()]
+print(len(df))
+print(df["EV%"].mean())
+print(df["Profit"].sum() / df["Unit Stake"].sum() * 100)
+df["ev_bucket"] = pd.cut(df["EV%"], bins=[100, 105, 110, 115, 120, 200])
+print(df["ev_bucket"].value_counts())
+buckets = df.groupby("ev_bucket").agg({"Unit Stake": "sum", "Profit": "sum", "Bet": "count"})
+buckets["roi"] = buckets["Profit"]/buckets["Unit Stake"]* 100
+print(buckets)
+top = df[df["EV%"] > 120]
+print(len(top))
+top_rois = []
+for i in range(10000):
+     a = top.sample(n=110, replace=True)
+     roi = a["Profit"].sum() / a["Unit Stake"].sum() * 100
+     top_rois.append(roi)
+print(np.mean(top_rois))
+print(np.percentile(top_rois, 2.5))
+print(np.percentile(top_rois, 97.5))

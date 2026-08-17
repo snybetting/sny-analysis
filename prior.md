@@ -1,6 +1,6 @@
 7 August 2026
 2. What do you think your true edge is now? - i believe its around +8% ROI
-2. Why? - softbooks getting sharper, maybe more people taking the same markets, edge eroding, but its still there and profitable.
+2. Why? - softbooks are getting sharper, maybe more people taking the same markets, edge eroding, but its still there and profitable.
 3. What's the decision if you're right? - nothing changes. Keep betting the edge until its clearly not profitable anymore. Why would i abandon a clearly tracked and profitable edge.
 4. What would surprise you? - If 26/27 season ends in 15%+ ROI
 5. What result would make you stop? - If ROI went below +2% and it was clear it wasnt very profitable anymore.
