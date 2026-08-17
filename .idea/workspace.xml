@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="CLV analysis by season">
-      <change beforePath="$PROJECT_DIR$/clv.py" beforeDir="false" afterPath="$PROJECT_DIR$/clv.py" afterDir="false" />
-    </list>
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="check CL subset is representative" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786957542037</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="check CL subset is representative">
+      <option name="closed" value="true" />
+      <created>1786957763475</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1786957763475</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +146,7 @@
     <MESSAGE value="bootstrap difference test between seasons" />
     <MESSAGE value="record prediction and season results in prior" />
     <MESSAGE value="CLV analysis by season" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLV analysis by season" />
+    <MESSAGE value="check CL subset is representative" />
+    <option name="LAST_COMMIT_MESSAGE" value="check CL subset is representative" />
   </component>
 </project>
