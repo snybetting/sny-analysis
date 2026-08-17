@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="check June volume drop against fixture calendar">
-      <change beforePath="$PROJECT_DIR$/prior.md" beforeDir="false" afterPath="$PROJECT_DIR$/prior.md" afterDir="false" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="record CLV findings in prior">
+      <change afterPath="$PROJECT_DIR$/pushes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     "Python.bootstrap.executor": "Run",
     "Python.clean.executor": "Run",
     "Python.clv.executor": "Run",
+    "Python.pushes.executor": "Run",
     "Python.q3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -144,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786958441014</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="record CLV findings in prior">
+      <option name="closed" value="true" />
+      <created>1786958786906</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1786958786906</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +168,7 @@
     <MESSAGE value="CLV analysis by season" />
     <MESSAGE value="check CL subset is representative" />
     <MESSAGE value="check June volume drop against fixture calendar" />
-    <option name="LAST_COMMIT_MESSAGE" value="check June volume drop against fixture calendar" />
+    <MESSAGE value="record CLV findings in prior" />
+    <option name="LAST_COMMIT_MESSAGE" value="record CLV findings in prior" />
   </component>
 </project>
