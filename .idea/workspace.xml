@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add Q1 findings writeup" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add README">
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786965228188</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add README">
+      <option name="closed" value="true" />
+      <created>1786967010914</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1786967010915</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,6 +266,7 @@
     <MESSAGE value="add reliability plot" />
     <MESSAGE value="add error bars to reliability plot" />
     <MESSAGE value="add Q1 findings writeup" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Q1 findings writeup" />
+    <MESSAGE value="add README" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README" />
   </component>
 </project>

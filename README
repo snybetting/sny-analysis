@@ -32,3 +32,18 @@ q3_findings.md   — is the edge decaying, or is this variance?
 q1_findings.md   — do my EV estimates mean anything?
 prior.md         — beliefs recorded before each analysis
 
+## Tooling
+
+I could not have done this without Claude LLM. The method - bootstrap
+resampling, the paired difference test, CLV as a lower-variance
+measure than ROI - was not something I knew existed. Claude
+explained each step and I typed the code myself rather than
+generating it, but I would not have got here alone.
+
+What is mine: the questions, the domain judgements about the
+betting markets, the priors written before each analysis, and the
+interpretation. Where my predictions were wrong - I expected the
+season decline to be variance, and the EV bands to come out flat -
+the results are reported as they came out.
+
+This is a first attempt. I am learning the statistics as I go.
