@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="bootstrap CI by season">
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="record prediction and season results in prior">
+      <change afterPath="$PROJECT_DIR$/clv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.bootstrap.executor": "Run",
     "Python.clean.executor": "Run",
+    "Python.clv.executor": "Run",
     "Python.q3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -104,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786701727263</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bootstrap difference test between seasons">
+      <option name="closed" value="true" />
+      <created>1786702916850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1786702916850</updated>
+    </task>
+    <task id="LOCAL-00007" summary="record prediction and season results in prior">
+      <option name="closed" value="true" />
+      <created>1786703092961</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1786703092961</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,6 +130,8 @@
     <MESSAGE value="added prior.md" />
     <MESSAGE value="bootstrap CI on all-time ROI" />
     <MESSAGE value="bootstrap CI by season" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap CI by season" />
+    <MESSAGE value="bootstrap difference test between seasons" />
+    <MESSAGE value="record prediction and season results in prior" />
+    <option name="LAST_COMMIT_MESSAGE" value="record prediction and season results in prior" />
   </component>
 </project>
