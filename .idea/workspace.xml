@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add error bars to reliability plot">
-      <change afterPath="$PROJECT_DIR$/q1_findings.md" afterDir="false" />
-    </list>
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add Q1 findings writeup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786964669352</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add Q1 findings writeup">
+      <option name="closed" value="true" />
+      <created>1786965228188</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1786965228188</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +255,7 @@
     <MESSAGE value="bootstrap top EV bucket" />
     <MESSAGE value="add reliability plot" />
     <MESSAGE value="add error bars to reliability plot" />
-    <option name="LAST_COMMIT_MESSAGE" value="add error bars to reliability plot" />
+    <MESSAGE value="add Q1 findings writeup" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Q1 findings writeup" />
   </component>
 </project>
