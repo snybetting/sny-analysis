@@ -14,16 +14,6 @@ buckets = df.groupby("ev_bucket").agg({"Unit Stake": "sum", "Profit": "sum", "Be
 buckets["roi"] = buckets["Profit"]/buckets["Unit Stake"]* 100
 buckets["claimed"] = buckets["EV%"] - 100
 print(buckets)
-top = df[df["EV%"] > 120]
-print(len(top))
-top_rois = []
-for i in range(10000):
-     a = top.sample(n=110, replace=True)
-     roi = a["Profit"].sum() / a["Unit Stake"].sum() * 100
-     top_rois.append(roi)
-print(np.mean(top_rois))
-print(np.percentile(top_rois, 2.5))
-print(np.percentile(top_rois, 97.5))
 bounds = []
 for b in buckets.index:
     sub = df[df["ev_bucket"] == b]
