@@ -34,3 +34,8 @@ What does this change? - The 11.8-point ROI drop is roughly 4 points of real edg
 The volume floor needs rewriting. - June 2025 was 121 bets of which 56 were Club World Cup; June 2026 was 47 of which 41 were World Cup. The 50-a-month rule from 7 August doesn't survive a summer. Restate it as a rolling 12-month average or exclude June and July.
 
 Conclusion - 8.6% CLV against Pinnacle's close is a live edge. The model isn't dead.
+
+Limitations:
+~40% of bets were on whole lines where pushes are possible but were not recorded in the source data. The non-pushable subset (n=1,559) returns 12.66% [6.85, 18.50], overlapping the full-sample interval, so the effect does not appear material at this sample size.
+81 of the 2,600 rows are doubles, trebles and accas. They're included in all figures above. They stake £36.95 and return −£0.58 (−1.57% ROI); excluding them lifts all-time ROI from 10.35% to 10.50%. Kept in for Q3 because it's real money staked. They would need excluding from any calibration or CLV work, since a multiple's combined price doesn't correspond to a single event.
+The bootstrap resamples individual bets, which assumes independence. Mine aren't independent — I regularly take two or three lines on the same match and they resolve together. The record therefore contains less independent information than 2,600 separate bets would, and the true confidence intervals are wider than those reported. Not corrected; noted.
