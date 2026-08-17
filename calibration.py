@@ -24,8 +24,19 @@ for i in range(10000):
 print(np.mean(top_rois))
 print(np.percentile(top_rois, 2.5))
 print(np.percentile(top_rois, 97.5))
-plt.scatter(buckets["claimed"], buckets["roi"])
+bounds = []
+for b in buckets.index:
+    sub = df[df["ev_bucket"] == b]
+    rois = []
+    for i in range(2000):
+        a = sub.sample(n=len(sub), replace=True)
+        rois.append(a["Profit"].sum() / a["Unit Stake"].sum() * 100)
+    bounds.append([np.percentile(rois, 2.5), np.percentile(rois, 97.5)])
+lower = buckets["roi"] - [b[0] for b in bounds]
+upper = [b[1] for b in bounds] - buckets["roi"]
+plt.errorbar(buckets["claimed"], buckets["roi"], yerr=[lower, upper], fmt="o")
 plt.plot([0, 30], [0, 30])
 plt.xlabel("Claimed EV %")
 plt.ylabel("Realised ROI %")
+print(bounds)
 plt.show()

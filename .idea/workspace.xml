@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="bootstrap top EV bucket">
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add reliability plot">
       <change beforePath="$PROJECT_DIR$/calibration.py" beforeDir="false" afterPath="$PROJECT_DIR$/calibration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786963114239</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add reliability plot">
+      <option name="closed" value="true" />
+      <created>1786964332413</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1786964332414</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +231,7 @@
     <MESSAGE value="record multiples exclusion check in prior" />
     <MESSAGE value="add Q3 findings writeup" />
     <MESSAGE value="bootstrap top EV bucket" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap top EV bucket" />
+    <MESSAGE value="add reliability plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reliability plot" />
   </component>
 </project>
