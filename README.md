@@ -1,6 +1,6 @@
 # SNY betting results analysis
 
-Statistical analysis of a tracked betting record — 2,600 bets on
+Statistical analysis of a tracked betting record - 2,600 bets on
 football corners and cards, Aug 2024 to Jul 2026.
 
 ## Headline results
@@ -8,7 +8,7 @@ football corners and cards, Aug 2024 to Jul 2026.
 All-time ROI 10.35%, 95% CI [5.94, 14.78], n=2,600.
 
 Season-on-season ROI fell 11.8 points [3.14, 20.33]. Closing line
-value over the same period fell only 4.05 points [3.28, 4.82] —
+value over the same period fell only 4.05 points [3.28, 4.82] -
 so roughly a third of the decline is real edge decay and the rest
 is variance. Current CLV of 8.4% against Pinnacle's close is live.
 
@@ -20,17 +20,19 @@ Method: bootstrap resampling, 10,000 iterations. Limitations
 stated in each findings document.
 
 ## Files
-clean.py         — loads the raw export, cleans it, writes clean_bets.csv
-q3.py            — monthly aggregation and charts
-bootstrap.py     — confidence intervals on ROI, all-time and by season
-clv.py           — closing line value analysis
-pushes.py        — data quality check on unrecorded pushes
-calibration.py   — EV calibration and reliability plot
+
+- clean.py — loads the raw export, cleans it, writes clean_bets.csv
+- q3.py — monthly aggregation and charts
+- bootstrap.py — confidence intervals on ROI, all-time and by season
+- clv.py — closing line value analysis
+- pushes.py — data quality check on unrecorded pushes
+- calibration.py — EV calibration and reliability plot
 
 ## Findings
-q3_findings.md   — is the edge decaying, or is this variance?
-q1_findings.md   — do my EV estimates mean anything?
-prior.md         — beliefs recorded before each analysis
+
+- q3_findings.md — is the edge decaying, or is this variance?
+- q1_findings.md — do my EV estimates mean anything?
+- prior.md — beliefs recorded before each analysis
 
 ## Tooling
 
