@@ -10,8 +10,9 @@ print(df["EV%"].mean())
 print(df["Profit"].sum() / df["Unit Stake"].sum() * 100)
 df["ev_bucket"] = pd.cut(df["EV%"], bins=[100, 105, 110, 115, 120, 200])
 print(df["ev_bucket"].value_counts())
-buckets = df.groupby("ev_bucket").agg({"Unit Stake": "sum", "Profit": "sum", "Bet": "count"})
+buckets = df.groupby("ev_bucket").agg({"Unit Stake": "sum", "Profit": "sum", "Bet": "count", "EV%": "mean"})
 buckets["roi"] = buckets["Profit"]/buckets["Unit Stake"]* 100
+buckets["claimed"] = buckets["EV%"] - 100
 print(buckets)
 top = df[df["EV%"] > 120]
 print(len(top))
@@ -23,3 +24,8 @@ for i in range(10000):
 print(np.mean(top_rois))
 print(np.percentile(top_rois, 2.5))
 print(np.percentile(top_rois, 97.5))
+plt.scatter(buckets["claimed"], buckets["roi"])
+plt.plot([0, 30], [0, 30])
+plt.xlabel("Claimed EV %")
+plt.ylabel("Realised ROI %")
+plt.show()
