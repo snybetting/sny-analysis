@@ -24,3 +24,5 @@ for i in range(10000):
 print(np.mean(clv_diffs))
 print(np.percentile(clv_diffs, 2.5))
 print(np.percentile(clv_diffs, 97.5))
+print(s2425["Profit"].sum() / s2425["Unit Stake"].sum() * 100)
+print(s2526["Profit"].sum() / s2526["Unit Stake"].sum() * 100)
