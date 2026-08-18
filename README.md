@@ -1,6 +1,6 @@
 # SNY betting results analysis
 
-Statistical analysis of a tracked betting record — 2,600 bets on
+Statistical analysis of a tracked betting record - 2,600 bets on
 football corners and cards, Aug 2024 to Jul 2026.
 
 ## Headline results
