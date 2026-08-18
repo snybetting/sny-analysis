@@ -5,7 +5,7 @@ football corners and cards, Aug 2024 to Jul 2026.
 
 ## Headline results
 
-All-time ROI 10.35%, 95% CI [5.94, 14.78], n=2,600.
+2,600 bets, 3,008.88 units staked, 311.36 units profit. ROI 10.35%, 95% CI [5.94, 14.78].
 
 Season-on-season ROI fell 11.8 points [3.14, 20.33]. Closing line
 value over the same period fell only 4.05 points [3.28, 4.82] —
@@ -16,21 +16,28 @@ EV estimates rank correctly: realised ROI rose across all five
 claimed-EV bands. Per-band intervals are 20–50 points wide, so
 the ranking holds but the levels are unresolved at this sample size.
 
+Corners and cards decayed by similar amounts in CLV terms, despite
+very different ROI outcomes.
+
 Method: bootstrap resampling, 10,000 iterations. Limitations
 stated in each findings document.
 
 ## Files
-clean.py         — loads the raw export, cleans it, writes clean_bets.csv
-q3.py            — monthly aggregation and charts
-bootstrap.py     — confidence intervals on ROI, all-time and by season
-clv.py           — closing line value analysis
-pushes.py        — data quality check on unrecorded pushes
-calibration.py   — EV calibration and reliability plot
+- clean.py — loads the raw export, cleans it, writes clean_bets.csv
+- q3.py — monthly aggregation and charts
+- bootstrap.py — confidence intervals on ROI, all-time and by season
+- clv.py — closing line value analysis
+- pushes.py — data quality check on unrecorded pushes
+- calibration.py — EV calibration and reliability plot
+- drawdown.py — equity curve and drawdown analysis
+- markets.py — corners vs cards split
 
 ## Findings
-q3_findings.md   — is the edge decaying, or is this variance?
-q1_findings.md   — do my EV estimates mean anything?
-prior.md         — beliefs recorded before each analysis
+- q3_findings.md — is the edge decaying, or is this variance?
+- q1_findings.md — do my EV estimates mean anything?
+- drawdown_findings.md — how deep and how long are the bad runs?
+- markets_findings.md — does the edge differ between corners and cards?
+- prior.md — beliefs recorded before each analysis
 
 ## Tooling
 
