@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add drawdown findings and update README">
-      <change afterPath="$PROJECT_DIR$/markets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add market split analysis">
+      <change afterPath="$PROJECT_DIR$/markets_findings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786990917196</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add market split analysis">
+      <option name="closed" value="true" />
+      <created>1787063589688</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1787063589688</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="load raw bet history" />
     <MESSAGE value="add type conversions and save clean output" />
     <MESSAGE value="added prior.md" />
     <MESSAGE value="bootstrap CI on all-time ROI" />
@@ -344,6 +351,7 @@
     <MESSAGE value="Rename README to README.md" />
     <MESSAGE value="add drawdown analysis and equity curve" />
     <MESSAGE value="add drawdown findings and update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="add drawdown findings and update README" />
+    <MESSAGE value="add market split analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add market split analysis" />
   </component>
 </project>

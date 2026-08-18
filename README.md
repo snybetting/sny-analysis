@@ -31,6 +31,7 @@ calibration.py   — EV calibration and reliability plot
 q3_findings.md   — is the edge decaying, or is this variance?
 q1_findings.md   — do my EV estimates mean anything?
 prior.md         — beliefs recorded before each analysis
+markets_findings.md — does the edge differ between corners and cards?
 
 ## Tooling
 
