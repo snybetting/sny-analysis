@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add market split analysis">
-      <change afterPath="$PROJECT_DIR$/markets_findings.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add markets findings and update README">
+      <change afterPath="$PROJECT_DIR$/power.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "Python.clv.executor": "Run",
     "Python.drawdown.executor": "Run",
     "Python.markets.executor": "Run",
+    "Python.power.executor": "Run",
     "Python.pushes.executor": "Run",
     "Python.q3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -306,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787063589688</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add markets findings and update README">
+      <option name="closed" value="true" />
+      <created>1787064045897</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1787064045898</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add type conversions and save clean output" />
     <MESSAGE value="added prior.md" />
     <MESSAGE value="bootstrap CI on all-time ROI" />
     <MESSAGE value="bootstrap CI by season" />
@@ -352,6 +360,7 @@
     <MESSAGE value="add drawdown analysis and equity curve" />
     <MESSAGE value="add drawdown findings and update README" />
     <MESSAGE value="add market split analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add market split analysis" />
+    <MESSAGE value="add markets findings and update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="add markets findings and update README" />
   </component>
 </project>
