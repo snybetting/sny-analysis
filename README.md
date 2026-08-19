@@ -19,6 +19,11 @@ the ranking holds but the levels are unresolved at this sample size.
 Corners and cards decayed by similar amounts in CLV terms, despite
 very different ROI outcomes.
 
+Both bookmakers declined by a similar amount in CLV, so the decay
+is not specific to one account. Volume shifted heavily from Bet365
+to Flutter, and toward longer odds, which adds variance to recent
+results.
+
 Monte Carlo power analysis shows ROI cannot be measured precisely
 enough to manage on: at 2,600 bets a true 10% edge lands anywhere
 in [5.0, 15.4], and even 50,000 bets leaves a 2.3-point band.
@@ -40,6 +45,7 @@ Method: bootstrap resampling and Monte Carlo simulation, 2,000 to
 - calibration.py - EV calibration and reliability plot
 - drawdown.py - equity curve and drawdown analysis
 - markets.py - corners vs cards split
+- books.py - Bet365 vs Flutter split
 - power.py - Monte Carlo power analysis: how precisely can ROI be measured?
 - clv_calibration.py - does CLV predict profit?
 
@@ -48,6 +54,7 @@ Method: bootstrap resampling and Monte Carlo simulation, 2,000 to
 - q1_findings.md - do my EV estimates mean anything?
 - drawdown_findings.md - how deep and how long are the bad runs?
 - markets_findings.md - does the edge differ between corners and cards?
+- books_findings.md - does the edge differ between bookmakers?
 - power_findings.md - how many bets before ROI means anything?
 - clv_calibration_findings.md - does beating the close translate into profit?
 - prior.md - beliefs recorded before each analysis
