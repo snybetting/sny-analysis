@@ -19,6 +19,10 @@ the ranking holds but the levels are unresolved at this sample size.
 Corners and cards decayed by similar amounts in CLV terms, despite
 very different ROI outcomes.
 
+Monte Carlo power analysis shows ROI cannot be measured precisely
+enough to manage on: at 2,600 bets a true 10% edge lands anywhere
+in [5.0, 15.4], and even 50,000 bets leaves a 2.3-point band.
+
 Method: bootstrap resampling, 10,000 iterations. Limitations
 stated in each findings document.
 
@@ -31,12 +35,14 @@ stated in each findings document.
 - calibration.py — EV calibration and reliability plot
 - drawdown.py — equity curve and drawdown analysis
 - markets.py — corners vs cards split
+- power.py — Monte Carlo power analysis: how precisely can ROI be measured?
 
 ## Findings
 - q3_findings.md — is the edge decaying, or is this variance?
 - q1_findings.md — do my EV estimates mean anything?
 - drawdown_findings.md — how deep and how long are the bad runs?
 - markets_findings.md — does the edge differ between corners and cards?
+- power_findings.md — how many bets before ROI means anything?
 - prior.md — beliefs recorded before each analysis
 
 ## Tooling
