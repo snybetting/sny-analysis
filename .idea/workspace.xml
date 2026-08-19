@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add CLV calibration findings">
-      <change afterPath="$PROJECT_DIR$/books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books_findings.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add bookmaker split analysis">
+      <change beforePath="$PROJECT_DIR$/books_findings.md" beforeDir="false" afterPath="$PROJECT_DIR$/books_findings.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787151226367</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add bookmaker split analysis">
+      <option name="closed" value="true" />
+      <created>1787152618314</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1787152618314</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="record prediction and season results in prior" />
     <MESSAGE value="CLV analysis by season" />
     <MESSAGE value="check CL subset is representative" />
     <MESSAGE value="check June volume drop against fixture calendar" />
@@ -396,6 +401,7 @@
     <MESSAGE value="add power analysis findings" />
     <MESSAGE value="add CLV calibration analysis" />
     <MESSAGE value="add CLV calibration findings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CLV calibration findings" />
+    <MESSAGE value="add bookmaker split analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bookmaker split analysis" />
   </component>
 </project>
