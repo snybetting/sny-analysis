@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add Monte Carlo power analysis">
-      <change afterPath="$PROJECT_DIR$/power_findings.md" afterDir="false" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add power analysis findings">
+      <change afterPath="$PROJECT_DIR$/clv_calibration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
     "Python.calibration.executor": "Run",
     "Python.clean.executor": "Run",
     "Python.clv.executor": "Run",
+    "Python.clv_calibration.executor": "Run",
     "Python.drawdown.executor": "Run",
     "Python.markets.executor": "Run",
     "Python.power.executor": "Run",
@@ -322,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787148902265</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add power analysis findings">
+      <option name="closed" value="true" />
+      <created>1787149493821</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1787149493821</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bootstrap CI on all-time ROI" />
     <MESSAGE value="bootstrap CI by season" />
     <MESSAGE value="bootstrap difference test between seasons" />
     <MESSAGE value="record prediction and season results in prior" />
@@ -368,6 +377,7 @@
     <MESSAGE value="add market split analysis" />
     <MESSAGE value="add markets findings and update README" />
     <MESSAGE value="add Monte Carlo power analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Monte Carlo power analysis" />
+    <MESSAGE value="add power analysis findings" />
+    <option name="LAST_COMMIT_MESSAGE" value="add power analysis findings" />
   </component>
 </project>
