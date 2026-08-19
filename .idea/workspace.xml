@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add CLV calibration analysis">
-      <change afterPath="$PROJECT_DIR$/clv_calibration_findings.md" afterDir="false" />
+    <list default="true" id="785a9339-775c-429d-a834-c67ec15e4c03" name="Changes" comment="add CLV calibration findings">
+      <change afterPath="$PROJECT_DIR$/books.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books_findings.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.books.executor": "Run",
     "Python.bootstrap.executor": "Run",
     "Python.calibration.executor": "Run",
     "Python.clean.executor": "Run",
@@ -340,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787150637726</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add CLV calibration findings">
+      <option name="closed" value="true" />
+      <created>1787151226367</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1787151226367</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,7 +371,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bootstrap difference test between seasons" />
     <MESSAGE value="record prediction and season results in prior" />
     <MESSAGE value="CLV analysis by season" />
     <MESSAGE value="check CL subset is representative" />
@@ -386,6 +395,7 @@
     <MESSAGE value="add Monte Carlo power analysis" />
     <MESSAGE value="add power analysis findings" />
     <MESSAGE value="add CLV calibration analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CLV calibration analysis" />
+    <MESSAGE value="add CLV calibration findings" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CLV calibration findings" />
   </component>
 </project>
